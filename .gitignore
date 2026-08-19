@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------------------
+# What ships is the PDF of each note, its figures, and its verification code.
+# The LaTeX sources are not public: they live under Working Notes/ and are
+# ignored wholesale by the rule below. Keep it that way; a stray .tex outside
+# Working Notes/ would otherwise be picked up by a bare `git add -A`.
+# ---------------------------------------------------------------------------
+Working Notes/
+*.tex
+*.sty
+*.cls
+*.bib
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Python
+__pycache__/
+*.pyc
+
+# Two-panel diagnostic figure, in any note's sim/. It regenerates from that
+# note's harness, and only the single-panel figure under figures/ is carried
+# by a note. Unanchored, so it matches at every depth.
+regime_mc.png
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Syncthing
+.stfolder/
+.stversions/
+.stignore

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you cite a note from this repository, cite the note by title and date; the canonical text is the article at gancor.xyz."
+title: "Letters: technical and empirical notes"
+abstract: >-
+  Short technical, empirical, and walkthrough notes on concentrated liquidity
+  microstructure, set in the preprint stack of the surrounding research
+  programme. Each note is the typeset form of an article published at
+  gancor.xyz, which remains the canonical text. The notes are not preprints
+  and carry no SSRN listing; this repository is their citable, archival copy,
+  carrying the note PDFs and the code behind their numbers.
+authors:
+  - family-names: Ryan
+    given-names: K. R.
+    alias: Gancor
+    orcid: "https://orcid.org/0009-0004-6295-7040"
+type: software
+repository-code: "https://github.com/g4nc0r/letters"
+url: "https://gancor.xyz"
+keywords:
+  - concentrated liquidity
+  - automated market maker
+  - DeFi
+  - loss-versus-rebalancing
+  - emissions
+  - ve(3,3)
+# The licence covers the code in this repository (each note's sim/ folder);
+# the note PDFs and figures are (c) K. R. Ryan, all rights reserved. The
+# LaTeX sources are not distributed. See the Licence entry in README.md.
+license: MIT
