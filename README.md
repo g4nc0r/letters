@@ -14,6 +14,7 @@ that produced its numbers.
 | Note | Status | Date | Pages |
 |---|---|---|---|
 | [Loss-Versus-Rebalancing Under Emissions](letters/2026_05_17_lvr-under-emissions/lvr-under-emissions.pdf) | Technical Note | 17 May 2026 | 7 |
+| [Loss-Versus-Rebalancing Under Management](letters/2026_10_16_lvr-under-management/lvr-under-management.pdf) | Empirical Note | 16 October 2026 | 5 |
 
 ## Layout
 
